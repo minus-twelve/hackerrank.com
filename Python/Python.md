@@ -5,6 +5,7 @@
 print("Hello, World!")
 ```
 
+
 ## **py-if-else**
 ```
 import math
@@ -29,4 +30,36 @@ else:
         else:
             if n>20:
                 print('Not Weird')
+```
+
+
+## **python-division**
+```
+if __name__ == '__main__':
+    a = int(input())
+    b = int(input())
+
+print(a//b)
+print(a/b)
+```
+
+## **python-loops**
+```
+if __name__ == '__main__':
+    n = int(input())
+
+
+for i in range(n):
+    print(i*i)
+```
+
+## **write-a-function**
+```
+def is_leap(year):
+    leap = False
+    return (year % 400 == 0) or ((year % 4 == 0) and (year % 100 != 0))
+    return leap
+
+year = int(input())
+print(is_leap(year))
 ```
