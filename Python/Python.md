@@ -43,6 +43,7 @@ print(a//b)
 print(a/b)
 ```
 
+
 ## **python-loops**
 ```
 if __name__ == '__main__':
@@ -53,6 +54,7 @@ for i in range(n):
     print(i*i)
 ```
 
+
 ## **write-a-function**
 ```
 def is_leap(year):
@@ -62,4 +64,25 @@ def is_leap(year):
 
 year = int(input())
 print(is_leap(year))
+```
+
+
+## **python-print**
+```
+if __name__ == '__main__':
+    n = int(input())
+
+a=''
+
+for i in range(n):
+    new=str(i+1)
+    a=a+new
+
+print(a)
+```
+
+
+## **list-comprehensions**
+```
+
 ```
