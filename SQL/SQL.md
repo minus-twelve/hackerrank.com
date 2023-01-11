@@ -29,3 +29,41 @@ select *
 from city
 where ID=1661
 ```
+
+
+## **japanese-cities-attributes**
+```
+select *
+from city
+WHERE COUNTRYCODE='JPN'
+```
+
+
+## **japanese-cities-name**
+```
+select name
+from city
+where countrycode='JPN'
+```
+
+
+## **weather-observation-station-1**
+```
+select city,state
+from station
+```
+
+
+## **weather-observation-station-3**
+```
+select distinct city
+from station
+where id%2=0
+```
+
+
+## **weather-observation-station-4**
+```
+select count(city)-(count(distinct city))
+from station
+```
