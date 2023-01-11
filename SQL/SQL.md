@@ -106,3 +106,7 @@ where city like 'a%a' or city like 'a%e' or city like 'a%i' or city like 'a%o' o
 ```
 
 
+## **weather-observation-station-9**
+```
+
+```
