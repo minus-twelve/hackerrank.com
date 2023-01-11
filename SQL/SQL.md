@@ -67,3 +67,16 @@ where id%2=0
 select count(city)-(count(distinct city))
 from station
 ```
+
+
+## **weather-observation-station-5**
+```
+select city, length(city)
+from station
+order by length(city) asc, city
+limit 1;
+select city, length(city)
+from station
+order by length(city) desc, city
+limit 1;
+```
