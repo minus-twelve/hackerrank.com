@@ -59,3 +59,6 @@
 
 ## **Weather Observation Station 15**
 [Answer](https://github.com/minus-twelve/hackerrank.com/blob/main/SQL/Answers/weather-observation-station-15.sql)
+
+## **Weather Observation Station 16**
+[Answer](https://github.com/minus-twelve/hackerrank.com/blob/main/SQL/Answers/weather-observation-station-16.sql)
